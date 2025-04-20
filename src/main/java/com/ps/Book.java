@@ -12,7 +12,7 @@ public class Book {
         this.isbn = isbn;
         this.title = title;
         this.isCheckedOut = false;
-        this.checkedOutTo = null;
+        this.checkedOutTo = " ";
     }
     public int getId() {
         return id;
@@ -61,6 +61,6 @@ public class Book {
 
     public void checkIn() {
         isCheckedOut = false;
-        checkedOutTo = null;
+        checkedOutTo = " ";
     }
 }
